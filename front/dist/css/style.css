@@ -1,4 +1,5 @@
 body { background: rgb(59, 58, 58);}
+html {scroll-behavior: smooth;}
 * {margin:0;padding:0;box-sizing: border-box;}
 
 .header {width: 100%;border-bottom: 1px solid rgb(167, 111, 22);}
@@ -8,7 +9,7 @@ body { background: rgb(59, 58, 58);}
 .logo img {width: 100%;}
 
 .textos {display: flex; gap: 15px;}
-.textos a {color: rgba(242, 242, 104, 0.789);font-weight: bold;font-size: 17px;}
+.textos a {color: rgba(242, 242, 104, 0.789);font-weight: bold;font-size: 17px;text-decoration: none;}
 
 .portada {width: 100%;height: 87vh; overflow: hidden;}
 .portada img {width: 100%;height: 100%;object-fit: cover;object-position: 50% 25%;}
@@ -18,7 +19,7 @@ body { background: rgb(59, 58, 58);}
 .mctalent-izq img {width: 100%; height: 100%;object-fit: cover;object-position: 50% 49%;}
 .mctalent-der {width: 50%;display: flex;flex-direction: column;justify-content: center;align-items: center;padding: 0 50px;text-align: center;}
 .mctalent-der h2 {color:rgb(238, 255, 4);font-size: 40px;margin-bottom: 20px;}
-.mctalent-der p {color: #6b645a;font-size: 18px;margin-bottom: 30px;}
+.mctalent-der p {color: #b4c09e;font-size: 18px;margin-bottom: 30px;}
 .boton-postulate {background-color: rgb(0, 0, 0);color: rgb(179, 180, 176);padding: 15px 40px;font-weight: bold;font-size: 20px;border-radius: 5px;text-decoration: none;}
 
 .skycrypt {width: 100%;height: 200px;background-color: #2a2a2a;display: flex;justify-content: center;align-items: center;}
@@ -39,3 +40,20 @@ body { background: rgb(59, 58, 58);}
 .footer {width: 100%;background-color: rgb(188, 185, 185);padding: 40px 0;}
 .footer-container {display: flex;justify-content: center;align-items: center;}
 .footer-container img {max-width:300px;height: auto;display: block;}
+
+/* contacto */
+
+.main-contacto {display: flex;flex-direction: column;justify-content: center;align-items: center;min-height: 87vh;padding: 40px 20px;}
+.formulario-container {background-color: #898989;width: 100%;max-width: 450px;padding: 30px;border-radius: 12px;border: 1px solid rgb(236, 197, 22);}
+
+.titulo-form {color: #ceebf7;text-align: center;margin-bottom: 20px;font-family: sans-serif;font-size: 35px;}
+
+.casilla {display: flex;flex-direction: column;margin-bottom: 20px;font-family: sans-serif;}
+.casilla label {color: rgb(0, 0, 0);margin-bottom: 6px;font-size: 15px;font-weight: bold;}
+.casilla input, .casilla select {padding: 15px;border-radius: 23px;border: 1px solid #bae050;background-color:white;font-size: 16px;outline: none;}
+.casilla input:focus, .casilla select:focus {border: 2px solid #ff0d0d;}
+
+.contenedor-boton {display: flex;justify-content: center;margin-top: 10px;}
+.boton-enviar {background-color: #ffbc0d;color: #000;padding: 12px 35px;font-weight: bold;font-size: 23px;border: none;cursor: pointer;}
+
+footer {background-color: white;width: 100%;min-height: 100px;}
